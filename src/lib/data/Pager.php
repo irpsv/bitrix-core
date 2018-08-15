@@ -10,7 +10,7 @@ class Pager
 
     public function __construct(int $pageSize, int $totalCount, int $pageNow = 1)
     {
-		$this->pageNow = $pageNow;
+	$this->pageNow = $pageNow;
         $this->pageSize = $pageSize;
         $this->totalCount = $totalCount;
     }
